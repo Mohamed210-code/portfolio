@@ -25,7 +25,7 @@
       title: 'Lab 3: Node.js & NPM Fundamentals',
       description: 'Introduction to server-side JavaScript with Node.js and NPM. Learn file system operations, module imports/exports, command-line arguments, and package management. Build CLI applications that read/write files and work with external packages.',
       tech: ['Node.js', 'JavaScript', 'NPM', 'File System', 'CLI'],
-      github: 'https://github.com/abdelhakimbkz/caw-labs/tree/main/Lab3',
+      github: 'https://github.com/abdelhakimbkz/caw-labs/tree/Lab7/Lab3',
       demo: null,
       category: 'fullstack',
       image: 'https://images.unsplash.com/photo-1618477247222-acbdb0e159b3?w=400&h=250&fit=crop'
@@ -35,7 +35,7 @@
       title: 'Lab 4: Unit Testing with Jest',
       description: 'Introduction to automated testing with Jest framework. Learn to write comprehensive test cases, understand test-driven development, and ensure code quality. Covers array manipulation functions, module testing, and Jest assertions with mock implementations.',
       tech: ['JavaScript', 'Jest', 'Unit Testing', 'TDD', 'NPM'],
-      github: 'https://github.com/abdelhakimbkz/caw-labs/tree/main/Lab4_Jest',
+      github: 'https://github.com/abdelhakimbkz/caw-labs/tree/Lab7/Lab4_Jest',
       demo: null,
       category: 'fullstack',
       image: 'https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=400&h=250&fit=crop'
@@ -45,7 +45,7 @@
       title: 'Lab 5: React Components & State Management',
       description: 'Introduction to React functional components, hooks, and state management. Build interactive components including toggle buttons, counters, dynamic lists with click-to-remove functionality, authentication forms with user management, and a dynamic div creator with custom styling.',
       tech: ['React', 'JavaScript', 'Hooks', 'useState', 'Component Props'],
-      github: 'https://github.com/abdelhakimbkz/caw-labs/tree/main/Lab5',
+      github: 'https://github.com/abdelhakimbkz/caw-labs/tree/Lab7/Lab5',
       demo: null,
       category: 'frontend',
       image: 'https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=400&h=250&fit=crop'
@@ -55,7 +55,7 @@
       title: 'Lab 6: Vite & React Components',
       description: 'Professional React development environment setup using Vite build tool. Learn ES Modules, component architecture, import/export syntax, props usage, and component reusability. Build profile cards with dynamic data and understand modern frontend tooling conventions.',
       tech: ['React', 'Vite', 'ES Modules', 'JSX', 'Component Props'],
-      github: 'https://github.com/abdelhakimbkz/caw-labs/tree/main/Lab6',
+      github: null,
       demo: null,
       category: 'frontend',
       image: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=400&h=250&fit=crop'
@@ -65,7 +65,7 @@
       title: 'Lab 7: Kanban Board (Trello Clone)',
       description: 'Full-featured Kanban board application for task management with drag-and-drop functionality, multiple columns (To Do, In Progress, Done), dynamic task creation, label system, checklist support, and column customization. Implements complex state management and modern React patterns.',
       tech: ['React', 'Vite', 'CSS3', 'UUID', 'State Management'],
-      github: 'https://github.com/abdelhakimbkz/caw-labs/tree/main/Lab7',
+      github: 'https://github.com/abdelhakimbkz/caw-labs/tree/Lab7/Lab7',
       demo: 'https://kanbann-board.netlify.app',
       category: 'frontend',
       image: 'https://images.unsplash.com/photo-1557804506-669a67965ba0?w=400&h=250&fit=crop'
@@ -95,7 +95,7 @@
       title: 'Local Algerian Restaurants - Flutter Mobile App',
       description: 'Cross-platform mobile application for discovering local Algerian restaurants across different regions (Algiers, Oran, Constantine, Annaba). Features region-based browsing, category filtering (Pizza, Restaurants, Desserts, Cafeteria), restaurant search, detailed restaurant profiles with images and contact information, admin panel for management, and user authentication system.',
       tech: ['Flutter', 'Dart', 'Firebase', 'Mobile Development', 'SharedPreferences'],
-      github: 'https://github.com/yourusername/restaurant-app',
+      github: null,
       demo: null,
       category: 'fullstack',
       image: 'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=400&h=250&fit=crop'
