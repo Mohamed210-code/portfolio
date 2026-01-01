@@ -14,7 +14,7 @@ function Navbar({ activeSection }) {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // Close mobile menu when clicking outside
+
   useEffect(() => {
     const handleClickOutside = (e) => {
       if (isMobileMenuOpen && !e.target.closest(`.${styles.mobileMenu}`) && !e.target.closest(`.${styles.mobileMenuBtn}`)) {
@@ -26,7 +26,7 @@ function Navbar({ activeSection }) {
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, [isMobileMenuOpen]);
 
-  // Prevent body scroll when mobile menu is open
+
   useEffect(() => {
     if (isMobileMenuOpen) {
       document.body.style.overflow = 'hidden';
@@ -68,7 +68,7 @@ function Navbar({ activeSection }) {
 
   return (
     <>
-      {/* Backdrop Overlay */}
+      
       {isMobileMenuOpen && (
         <div
           className={styles.backdrop}
@@ -78,7 +78,7 @@ function Navbar({ activeSection }) {
 
       <header className={`${styles.header} ${isScrolled ? styles.scrolled : ''}`}>
         <nav className={styles.nav}>
-          {/* Logo */}
+         
           <div className={styles.logoContainer}>
             <a
               href="#home"
@@ -90,7 +90,7 @@ function Navbar({ activeSection }) {
             </a>
           </div>
 
-          {/* Desktop Menu */}
+          
           <ul className={styles.menu}>
             {navItems.map((item) => (
               <li key={item.id}>
@@ -108,7 +108,7 @@ function Navbar({ activeSection }) {
             ))}
           </ul>
 
-          {/* Mobile Menu Button */}
+          
           <button
             className={`${styles.mobileMenuBtn} ${
               isMobileMenuOpen ? styles.open : ''
@@ -123,7 +123,7 @@ function Navbar({ activeSection }) {
         </nav>
       </header>
 
-      {/* Mobile Menu */}
+      
       <div
         className={`${styles.mobileMenu} ${
           isMobileMenuOpen ? styles.mobileMenuOpen : ''
@@ -151,7 +151,7 @@ function Navbar({ activeSection }) {
           ))}
         </ul>
 
-        {/* Mobile Menu Footer */}
+        
         <div className={styles.mobileMenuFooter}>
           <p>Built with React & Vite</p>
         </div>

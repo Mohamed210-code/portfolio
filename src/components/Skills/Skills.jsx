@@ -33,7 +33,7 @@ function Skills() {
       icon: '⚛️',
       skills: [
         { name: 'React.js', level: 90 },
-        { name: 'JavaScript (ES6+)', level: 88 },
+        { name: 'JavaScript ', level: 88 },
         { name: 'HTML5', level: 95 },
         { name: 'CSS3 & SASS', level: 90 }
       ]
@@ -44,8 +44,18 @@ function Skills() {
       skills: [
         { name: 'Node.js', level: 75 },
         { name: 'Express.js', level: 70 },
-        { name: 'MongoDB', level: 72 },
+        { name: 'MongoDB', level: 90 },
         { name: 'REST APIs', level: 78 }
+      ]
+    },
+    {
+      category: 'Mobile Development',
+      icon: '📱',
+      skills: [
+        { name: 'Flutter', level: 80 },
+        { name: 'Dart', level: 78 },
+        { name: 'Firebase', level: 75 },
+        { name: 'Cross-Platform', level: 82 }
       ]
     },
     {
@@ -66,7 +76,9 @@ function Skills() {
     { name: 'State Management', icon: '🔄', level: 85 },
     { name: 'API Integration', icon: '🔌', level: 82 },
     { name: 'Testing (Jest)', icon: '🧪', level: 75 },
-    { name: 'Version Control', icon: '📋', level: 90 }
+    { name: 'Version Control', icon: '📋', level: 90 },
+    { name: 'Mobile UI/UX', icon: '🎨', level: 80 },
+    { name: 'Database Design', icon: '💾', level: 78 }
   ];
 
   const additionalSkills = [
@@ -77,16 +89,21 @@ function Skills() {
     { name: 'Figma', icon: '🎯' },
     { name: 'Agile/Scrum', icon: '🏃' },
     { name: 'Problem Solving', icon: '🧠' },
-    { name: 'Team Collaboration', icon: '🤝' }
+    { name: 'Team Collaboration', icon: '🤝' },
+    { name: 'Material Design', icon: '📐' },
+    { name: 'Responsive Apps', icon: '📲' }
   ];
 
   const technologies = [
     { name: 'JavaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
     { name: 'React', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' },
+    { name: 'Flutter', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg' },
+    { name: 'Dart', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg' },
     { name: 'HTML5', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
     { name: 'CSS3', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
     { name: 'Node.js', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg' },
     { name: 'MongoDB', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg' },
+    { name: 'Firebase', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg' },
     { name: 'Git', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg' },
     { name: 'TypeScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg' },
     { name: 'Vite', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg' },
@@ -100,16 +117,16 @@ function Skills() {
       ref={sectionRef}
     >
       <div className={styles.container}>
-        {/* Header */}
+        
         <div className={`${styles.header} ${isVisible ? styles.visible : ''}`}>
           <span className={styles.sectionLabel}>My Expertise</span>
           <h2 className={styles.title}>Skills & Technologies</h2>
           <p className={styles.subtitle}>
-            A comprehensive showcase of my technical abilities and professional competencies
+            A comprehensive showcase of my technical abilities spanning web and mobile development
           </p>
         </div>
 
-        {/* Core Skills */}
+        
         <div className={styles.coreSkillsSection}>
           <h3 className={`${styles.sectionTitle} ${isVisible ? styles.visible : ''}`}>
             <span className={styles.titleIcon}>🎯</span>
@@ -154,7 +171,7 @@ function Skills() {
           </div>
         </div>
 
-        {/* Project Skills */}
+        
         <div className={styles.projectSkillsSection}>
           <h3 className={`${styles.sectionTitle} ${isVisible ? styles.visible : ''}`}>
             <span className={styles.titleIcon}>💼</span>
@@ -184,7 +201,7 @@ function Skills() {
           </div>
         </div>
 
-        {/* Additional Skills */}
+        
         <div className={styles.additionalSkillsSection}>
           <h3 className={`${styles.sectionTitle} ${isVisible ? styles.visible : ''}`}>
             <span className={styles.titleIcon}>✨</span>
@@ -204,7 +221,7 @@ function Skills() {
           </div>
         </div>
 
-        {/* Technology Stack */}
+        
         <div className={`${styles.techStack} ${isVisible ? styles.visible : ''}`}>
           <h3 className={styles.techStackTitle}>
             <span className={styles.titleIcon}>⚙️</span>

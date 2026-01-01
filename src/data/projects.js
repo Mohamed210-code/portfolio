@@ -1,4 +1,4 @@
- // Projects data
+ 
   const projects = [
     {
       id: 1,
@@ -89,6 +89,16 @@
       demo: null,
       category: 'fullstack',
       image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&h=250&fit=crop'
+    },
+    {
+      id: 10,
+      title: 'Local Algerian Restaurants - Flutter Mobile App',
+      description: 'Cross-platform mobile application for discovering local Algerian restaurants across different regions (Algiers, Oran, Constantine, Annaba). Features region-based browsing, category filtering (Pizza, Restaurants, Desserts, Cafeteria), restaurant search, detailed restaurant profiles with images and contact information, admin panel for management, and user authentication system.',
+      tech: ['Flutter', 'Dart', 'Firebase', 'Mobile Development', 'SharedPreferences'],
+      github: 'https://github.com/yourusername/restaurant-app',
+      demo: null,
+      category: 'fullstack',
+      image: 'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=400&h=250&fit=crop'
     }
   ];
 
