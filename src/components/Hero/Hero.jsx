@@ -58,10 +58,11 @@ function Hero() {
 
             
               <img 
-                src="/src/assets/images/profile.jpg"
+               src={import.meta.env.BASE_URL + 'profile.jpg'}
                 alt="Profile"
                 className={styles.profileImage}
               />
+
 
               <div className={styles.statusDot}></div>
             </div>
